@@ -1,0 +1,137 @@
+/* 
+    Document   : HomeCSS
+    Created on : Jun 16, 2014, 11:47:25 AM
+    Author     : Daniel Lee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    /*display: block;*/
+}
+.container{
+    min-width: 740px;
+}
+body{
+    background-color:#f0f0f0;
+    font-family: monospace;
+}
+
+header{
+    text-transform:uppercase;
+    border-bottom: solid 1px #c3d4d3;
+    
+}
+
+header h1{
+    padding-top: 100px;
+   /* font-family:fantasy;*/
+    font-size:50px;
+    margin: 0px;
+}
+
+nav{
+    padding-left:80px;
+    float:right;
+    position:absolute;
+    text-decoration:none;
+    /*font-family:fantasy;*/
+    font-size:35px;
+}
+
+#current{
+    color:teal;
+    font-weight: bold;
+}
+nav a{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+.techs-used{
+    
+}
+
+.summary{
+    min-height:260px;
+}
+.summary h2{
+    display:inline-block;
+    font-size:20px;
+}
+
+.summary h3{
+    font-size:15px;
+    
+}
+
+.summary a{
+    text-decoration:none;
+}
+
+.summary p{
+    display:inline-block;
+    font-size:20px;
+    width:480px;
+    vertical-align: bottom;
+}
+
+.left{
+    display:inline-block;
+    width:480px;
+}
+
+.right{
+    display:inline-block;
+    float:right;
+    position:absolute;
+}
+
+.rightFlip{
+    display:inline-block;
+    
+}
+
+.leftFlip{
+    display:inline-block;
+    float:right;
+    position:absolute;
+    width:480px;
+    padding-left:250px;
+}
+
+.right img{
+    position:absolute;
+    padding-top:10px;
+    height:240px;
+    width:240px;
+}
+
+.rightFlip img{
+    position:absolute;
+    padding-top:10px;
+    height:240px;
+    width:240px;
+}
+
+.overlay{
+    position:absolute;
+    text-align:center;
+    color:black;
+    text-decoration: underline;
+    font-size:10px;
+    z-index:100;
+    padding-top:180px;
+    padding-left:100px;
+}
+
+#avatar{
+    position:absolute;
+    display:inline-block;
+    padding-left:10px;    
+    padding-top:168px;
+}
